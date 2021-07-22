@@ -7,7 +7,7 @@ import {FORMULARIO_PROYECTO,
         ERROR_PROYECTO} from '../../types';
 
 
- export default (state, action) =>{
+ const alertaReducer = (state, action) =>{
 
     switch (action.type) {
         case FORMULARIO_PROYECTO:
@@ -55,4 +55,4 @@ import {FORMULARIO_PROYECTO,
             return state;
      }
  }
- 
+ export default alertaReducer
